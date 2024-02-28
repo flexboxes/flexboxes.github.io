@@ -1,0 +1,13 @@
+.flex-container {
+    display: flex;
+    justify-content: center; /* Center flex items horizontally */
+    align-items: center; /* Center flex items vertically */
+    height: 200px; /* Specify height */
+    flex-direction: column
+    }
+.flex-item {
+    margin: 5px;
+    padding: 20px;
+    background: rgb(255, 0, 0);
+    flex-grow: 2;
+    }
