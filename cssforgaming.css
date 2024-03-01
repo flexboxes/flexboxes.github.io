@@ -1,5 +1,6 @@
-.flex-container {
-    display: flex;
+.flex-item {
+  flex-direction: column;
+  flex-basis: 50px;
   }
   
   /* this selector selects all divs inside of .flex-container */
