@@ -1,23 +1,32 @@
-  .flex-container div {
-    background: peachpuff;
-    border: 4px solid brown;
-    height: 100px;
-    width:100px;
-    flex-direction: row;
-  }
+.flex-container div {
+background: peachpuff;
+border: 4px solid brown;
+height: 100px;
+width:100px;
+flex-direction: row;
+}
 
     
-    /* this selector selects all divs inside of .flex-container */
-    .flex-contain div {
-      background: rgb(148, 195, 191);
-      border: 4px solid rgb(11, 2, 67);
-      height: 100px;
-      width: 100px;
-      margin: 4px;
-      flex-direction: row;
-    }
+
+.flex-contain div {
+background: rgb(148, 195, 191);
+border: 4px solid rgb(11, 2, 67);
+height: 100px;
+width: 100px;
+display: flex;
+flex-direction: row;
+}
 .flex-thing {
   margin: 4px;
   border: 4px;
   background:rgb(148, 195, 191);
+  flex-direction:row;
+}
+
+#main {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-direction: row;
 }
